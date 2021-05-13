@@ -1,7 +1,17 @@
-Parallax Background
-Shooter
-Health
-Vaksin (point & ammo)
-Enemy Death (Score)
-Checkpoint
-Level
+> GAME:
+1. Parallax BAckground
+2. Checkpoint
+3. Level (From Door)
+4. Vaksin (Point & Ammo)
+
+> PLAYER:
+1. Health
+2. Shooting
+
+> ENEMY:
+1. Health
+2. Death ( Score )
+
+> BOSS:
+1. Health
+2. Serangan
