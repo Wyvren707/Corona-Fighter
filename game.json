@@ -29,65 +29,6 @@
       "showGDevelopSplash": false
     },
     "extensionProperties": [],
-    "extensions": [
-      {
-        "name": "BuiltinObject"
-      },
-      {
-        "name": "BuiltinAudio"
-      },
-      {
-        "name": "BuiltinVariables"
-      },
-      {
-        "name": "BuiltinTime"
-      },
-      {
-        "name": "BuiltinMouse"
-      },
-      {
-        "name": "BuiltinKeyboard"
-      },
-      {
-        "name": "BuiltinJoystick"
-      },
-      {
-        "name": "BuiltinCamera"
-      },
-      {
-        "name": "BuiltinWindow"
-      },
-      {
-        "name": "BuiltinFile"
-      },
-      {
-        "name": "BuiltinNetwork"
-      },
-      {
-        "name": "BuiltinScene"
-      },
-      {
-        "name": "BuiltinAdvanced"
-      },
-      {
-        "name": "Sprite"
-      },
-      {
-        "name": "BuiltinCommonInstructions"
-      },
-      {
-        "name": "BuiltinCommonConversions"
-      },
-      {
-        "name": "BuiltinStringInstructions"
-      },
-      {
-        "name": "BuiltinMathematicalTools"
-      },
-      {
-        "name": "BuiltinExternalLayouts"
-      }
-    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -429,6 +370,285 @@
         "name": "tong2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/p1_stand2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/p1_stand2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/p1_jump2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/p1_jump2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/p1_walk032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/p1_walk032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/p1_walk042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/p1_walk042.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/p1_walk052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/p1_walk052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/p1_walk062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/p1_walk062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/p1_walk072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/p1_walk072.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/cloud1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/cloud1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Tiles/jalan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Tiles/jalan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/bridgeLogs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/bridgeLogs.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/vaksin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/vaksin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/corona walk 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/corona walk 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/Corona walk 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/Corona walk 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/Corona dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/Corona dead.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/tong.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/tong.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/tong 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/tong 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Pistol0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Pistol0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/pistol1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/pistol1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/corona fly 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/corona fly 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/corona fly 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/corona fly 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Tong oren.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Tong oren.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Tong biru.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Tong biru.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/parabola.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/parabola.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Ammo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Ammo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ammo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ammo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/lompat-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/lompat-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/lompat-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/lompat-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/lompat-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/lompat-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Player/lompat-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Player/lompat-1-2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -440,8 +660,8 @@
     {
       "b": 214,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene",
-      "name": "New scene",
+      "mangledName": "World",
+      "name": "World",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -462,9 +682,21 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.20320000000000027
+        "zoomFactor": 0.7968000000000074
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Objek",
+          "objects": [
+            {
+              "name": "tong"
+            },
+            {
+              "name": "tong2"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -492,8 +724,8 @@
           "name": "cloud",
           "persistentUuid": "aa7c1b58-4772-4c61-8d77-f462117e49db",
           "width": 0,
-          "x": 1845,
-          "y": 272,
+          "x": 1865,
+          "y": 219,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -517,16 +749,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 100,
           "layer": "",
           "locked": false,
           "name": "player",
           "persistentUuid": "bbdf2295-9e3c-407e-be29-6524728216ff",
-          "width": 0,
-          "x": -85,
-          "y": -177,
-          "zOrder": 4,
+          "width": 81,
+          "x": -107,
+          "y": 471,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -565,22 +797,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "67910209-f1fe-4bc1-b3d2-e33a240c27a7",
-          "width": 22,
-          "x": 261,
-          "y": 507,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "UI",
@@ -597,38 +813,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "98160291-fde4-43dc-afdf-6c951d73722c",
-          "width": 22,
-          "x": 60,
-          "y": 509,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "13cc7b2f-cfd4-41cb-9569-7b99f64af169",
-          "width": 22,
-          "x": 163,
-          "y": 509,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -636,8 +820,8 @@
           "name": "cloud",
           "persistentUuid": "8c194961-3eae-45f6-86ff-36d670ec867a",
           "width": 0,
-          "x": -92,
-          "y": 204,
+          "x": -54,
+          "y": 82,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -652,8 +836,8 @@
           "name": "cloud",
           "persistentUuid": "71b53bbe-addd-4302-ac45-88f945b17b06",
           "width": 0,
-          "x": 1042,
-          "y": 166,
+          "x": 1079,
+          "y": 77,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -668,25 +852,9 @@
           "name": "cloud",
           "persistentUuid": "737c3010-a7c6-49f1-951f-7cf552962639",
           "width": 0,
-          "x": 1232,
-          "y": 377,
+          "x": 1483,
+          "y": 30,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "corona",
-          "persistentUuid": "182d2491-5279-4bf6-86eb-277cc40d2279",
-          "width": 0,
-          "x": 1000,
-          "y": 481,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -700,9 +868,9 @@
           "name": "corona",
           "persistentUuid": "9fa2d6a8-6e47-41bc-aea7-eacaefac62b2",
           "width": 0,
-          "x": 377,
-          "y": 485,
-          "zOrder": 15,
+          "x": 357,
+          "y": 483,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -717,8 +885,8 @@
           "persistentUuid": "9c160a93-7d5f-4fb7-b58c-b3c0c594e385",
           "width": 0,
           "x": 609,
-          "y": 523,
-          "zOrder": 16,
+          "y": 511,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -732,73 +900,9 @@
           "name": "kanan",
           "persistentUuid": "c45af34f-a058-42fe-ab17-88378f7bfd8f",
           "width": 0,
-          "x": 274,
-          "y": 519,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "corona",
-          "persistentUuid": "d9daaaee-01d4-4ec3-97fd-3226c43abbc4",
-          "width": 0,
-          "x": 490,
-          "y": 497,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "corona",
-          "persistentUuid": "1f1ef7c3-c22d-4426-92d8-5cdc62c4eef9",
-          "width": 0,
-          "x": 693,
-          "y": 287,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "07b304a3-6d3c-475a-974d-b0871c2c6610",
-          "width": 0,
-          "x": 649,
-          "y": 500,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "472775eb-4c15-4a9c-810d-4b916ede3daf",
-          "width": 0,
-          "x": 1127,
-          "y": 499,
-          "zOrder": 32,
+          "x": 269,
+          "y": 506,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -825,203 +929,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "tong",
-          "persistentUuid": "a479ad71-a8e2-4a4a-a0fa-c592c31c5c54",
-          "width": 0,
-          "x": 1696,
-          "y": 507,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "5032521d-c9ae-42f6-8ac5-f1dc4df7de57",
-          "width": 0,
-          "x": 1742,
-          "y": 507,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "97d5fe53-ba07-45fd-ac26-4cf30882c905",
-          "width": 0,
-          "x": 1791,
-          "y": 508,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "d28df3b4-d67d-4305-b57f-c557e7c7f089",
-          "width": 0,
-          "x": 1789,
-          "y": 439,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "f2738399-2d77-4b30-ab90-d0ff2e280611",
-          "width": 0,
-          "x": 1836,
-          "y": 509,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "dbb2bc74-c8a5-420b-99ad-81ff7a529f76",
-          "width": 0,
-          "x": 1835,
-          "y": 440,
-          "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tong",
-          "persistentUuid": "ba2a7496-eeec-4a0e-bfcd-47313f7da08c",
-          "width": 0,
-          "x": 1836,
-          "y": 377,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "7ebf1713-0efe-47fa-a2a6-7988619f105d",
-          "width": 22,
-          "x": 60,
-          "y": 509,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "e835b68f-41a8-48dc-88b6-db3b2cd2e8d6",
-          "width": 22,
-          "x": 163,
-          "y": 509,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "8071d9a8-8dd9-4dba-a88c-ee7e44bcf41e",
-          "width": 22,
-          "x": 60,
-          "y": 509,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "74667053-a83a-46c0-9bac-46455df7d17b",
-          "width": 22,
-          "x": 163,
-          "y": 509,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "corona",
-          "persistentUuid": "6fda4485-8ffc-416d-94b5-45feeff765ed",
-          "width": 0,
-          "x": 1293,
-          "y": 476,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "corona",
           "persistentUuid": "bbe8789c-0726-46f2-a6be-62eed4dfbfc4",
           "width": 0,
-          "x": 2148,
-          "y": 495,
+          "x": 2031,
+          "y": 490,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -1036,8 +948,8 @@
           "name": "kanan",
           "persistentUuid": "5edc5fd1-89cf-4f22-a426-2e735fd58dd9",
           "width": 0,
-          "x": 1895,
-          "y": 530,
+          "x": 1753,
+          "y": 525,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1052,8 +964,8 @@
           "name": "kiri",
           "persistentUuid": "aa7c8403-5ae8-449b-be40-0f54b89daccf",
           "width": 0,
-          "x": 2270,
-          "y": 527,
+          "x": 2180,
+          "y": 517,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -1068,8 +980,8 @@
           "name": "corona",
           "persistentUuid": "d1766029-d479-4ab5-a6df-6639433d3272",
           "width": 0,
-          "x": 2056,
-          "y": 494,
+          "x": 1899,
+          "y": 489,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -1078,12 +990,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 998,
+          "height": 995,
           "layer": "",
           "locked": false,
           "name": "daratan",
           "persistentUuid": "88ecc281-8956-4bca-9613-ec5cea90b70d",
-          "width": 588,
+          "width": 1178,
           "x": 2422,
           "y": 576,
           "zOrder": 46,
@@ -1097,43 +1009,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "coin",
-          "persistentUuid": "532112cf-df0b-4b83-8804-b450c8e18c55",
-          "width": 0,
-          "x": 2595,
-          "y": 509,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "54b5858b-b2ed-426c-b991-d79250d0fc48",
-          "width": 0,
-          "x": 2822,
-          "y": 510,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "cloud",
           "persistentUuid": "d01ecd4f-8f74-4d29-8bb2-93ee52d4586c",
           "width": 0,
-          "x": 2710,
-          "y": 290,
+          "x": 2798,
+          "y": 68,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -1142,14 +1022,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 60,
+          "height": 134,
           "layer": "",
           "locked": false,
           "name": "tong2",
           "persistentUuid": "384470fa-a23c-469e-ac07-2832fa961a6f",
-          "width": 98,
-          "x": 2907,
-          "y": 517,
+          "width": 83,
+          "x": 3210,
+          "y": 447,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -1157,15 +1037,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 167,
           "layer": "",
           "locked": false,
           "name": "corona",
           "persistentUuid": "8e743fc1-a184-4bfd-945c-8bb1299e9e02",
-          "width": 0,
-          "x": 2673,
-          "y": 493,
+          "width": 238,
+          "x": 2607,
+          "y": 392,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -1180,8 +1060,8 @@
           "name": "kanan",
           "persistentUuid": "f5067c73-8f23-4ffd-85d5-f02a4eea3475",
           "width": 0,
-          "x": 2557,
-          "y": 519,
+          "x": 2457,
+          "y": 520,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -1196,8 +1076,8 @@
           "name": "kiri",
           "persistentUuid": "49219211-0f0e-4363-91ad-0bf9c7639a1a",
           "width": 0,
-          "x": 2857,
-          "y": 523,
+          "x": 2896,
+          "y": 517,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -1209,28 +1089,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "corona",
-          "persistentUuid": "5a6316fb-4eb6-460a-b9b2-461e1bed5a85",
-          "width": 0,
-          "x": 2010,
-          "y": 283,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "kiri",
-          "persistentUuid": "5705e1f0-2564-4748-9715-87982bb8f59a",
+          "persistentUuid": "de4ce843-0539-4c43-98ab-201ccc49da1f",
           "width": 0,
-          "x": 2113,
-          "y": 304,
-          "zOrder": 55,
+          "x": 1413,
+          "y": 482,
+          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1242,283 +1106,187 @@
           "layer": "",
           "locked": false,
           "name": "kanan",
-          "persistentUuid": "db19ed85-e431-4be4-988b-338438218a81",
+          "persistentUuid": "c50e0914-b02e-416e-8f9a-c533b496bd7a",
           "width": 0,
-          "x": 1784,
-          "y": 304,
-          "zOrder": 56,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "09a723de-dbfa-4c97-b9b4-c6c04bb3d143",
-          "width": 0,
-          "x": 865,
-          "y": 501,
-          "zOrder": 57,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "f6d46093-e93d-4e58-8cb2-600c255993a0",
-          "width": 0,
-          "x": 1717,
-          "y": 444,
-          "zOrder": 58,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "5aae5da7-e05a-4896-80b5-f5c48748d492",
-          "width": 0,
-          "x": 1799,
-          "y": 377,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "adab438f-01c8-4ee8-b68e-04208bc37b9a",
-          "width": 0,
-          "x": 2042,
-          "y": 496,
-          "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "f3c8f8d0-3b20-4cd0-91e2-86f7f71151dc",
-          "width": 0,
-          "x": 2968,
-          "y": 466,
-          "zOrder": 61,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "19bdac16-8357-48f5-89a1-164fa845f897",
-          "width": 0,
-          "x": 2922,
-          "y": 466,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "bcf1a441-267d-4903-884a-0bf1fe58f0e8",
-          "width": 0,
-          "x": 2966,
-          "y": 418,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "6374b844-64ad-40d1-a30c-da54b57f1a8e",
-          "width": 0,
-          "x": 2919,
-          "y": 411,
-          "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "9c5f1b12-c032-4956-9482-6b3ff8c77c7a",
-          "width": 0,
-          "x": 2947,
-          "y": 369,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "c4fb9f13-77f0-4bc1-926a-9cbcf0a50694",
-          "width": 0,
-          "x": 3147,
-          "y": 531,
-          "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "af252176-4913-4076-ac2e-971e487f3daa",
-          "width": 0,
-          "x": 3200,
-          "y": 530,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "23dba497-991e-46d0-a13b-98e20db228d2",
-          "width": 0,
-          "x": 3175,
-          "y": 584,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "24393757-8f67-4ee0-ab3f-a5b944436559",
-          "width": 0,
-          "x": 3174,
-          "y": 482,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "7f2337ad-6e27-408d-8ef0-7fded9238d5e",
-          "width": 0,
-          "x": 3292,
-          "y": 530,
-          "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "e57ac0ab-6989-46d4-a2d5-df7a8edb145a",
-          "width": 0,
-          "x": 3345,
-          "y": 529,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "be2c21bd-ab2a-47b6-9af0-6f0cdb20a201",
-          "width": 0,
-          "x": 3320,
-          "y": 583,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "5db31c31-346b-4b55-8ea7-d6d4f459f6d5",
-          "width": 0,
-          "x": 3319,
+          "x": 1189,
           "y": 481,
-          "zOrder": 69,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 67,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "17e99255-ed10-447c-a70e-57b9e739dd00",
+          "width": 107,
+          "x": 1255,
+          "y": 345,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "coin",
+          "persistentUuid": "b04d9da9-f0c3-4ec2-96aa-8f19f5eb4d65",
+          "width": 27,
+          "x": 707,
+          "y": 489,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "coin",
+          "persistentUuid": "943507c3-9d7e-419b-994a-6ef68f620af4",
+          "width": 27,
+          "x": 768,
+          "y": 489,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "locked": false,
+          "name": "parabola",
+          "persistentUuid": "0ecfef69-c61b-4ad5-8e6f-c7fd62e403ee",
+          "width": 119,
+          "x": -56,
+          "y": 499,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 804,
+          "layer": "",
+          "locked": false,
+          "name": "daratan",
+          "persistentUuid": "8069a636-76bc-4831-a1a7-3840055a040b",
+          "width": 296,
+          "x": -677,
+          "y": 769,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 804,
+          "layer": "",
+          "locked": false,
+          "name": "daratan",
+          "persistentUuid": "3ae2b1c1-32a4-401b-9207-5793c421f3b5",
+          "width": 296,
+          "x": -1046,
+          "y": 644,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 804,
+          "layer": "",
+          "locked": false,
+          "name": "daratan",
+          "persistentUuid": "e7710d91-2d5e-4221-b351-9aba5b8e57eb",
+          "width": 296,
+          "x": 1249,
+          "y": 829,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 84,
+          "layer": "",
+          "locked": false,
+          "name": "tong",
+          "persistentUuid": "6e05a47b-9d57-4f93-b9db-75329fc9ddef",
+          "width": 60,
+          "x": 1024,
+          "y": 485,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "08120337-6b7c-4a41-b80a-a8eead625fb6",
+          "width": 120,
+          "x": 1001,
+          "y": 344,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 55,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "45cc7407-26e2-400c-9021-0d5b7863cccb",
+          "width": 91,
+          "x": 1265,
+          "y": 464,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 135,
+          "layer": "",
+          "locked": false,
+          "name": "tong2",
+          "persistentUuid": "59eb35b9-f083-4020-a450-bcc1fdf364d1",
+          "width": 247,
+          "x": 1491,
+          "y": 445,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1529,124 +1297,28 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "coin",
-          "persistentUuid": "c5fa857c-5b1d-4b60-9161-45188ec23aaf",
+          "name": "tong",
+          "persistentUuid": "92575c52-038d-484a-85e4-5a8137f316a3",
           "width": 0,
-          "x": 3152,
-          "y": 702,
-          "zOrder": 66,
+          "x": 1656,
+          "y": 316,
+          "zOrder": 85,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 100,
           "layer": "",
           "locked": false,
-          "name": "coin",
-          "persistentUuid": "a87f7786-e0c1-4c44-b5ef-5a8aeb777bb9",
-          "width": 0,
-          "x": 3205,
-          "y": 701,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "f93aa67f-a74f-4cda-ade0-f8ecaea96252",
-          "width": 0,
-          "x": 3180,
-          "y": 755,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "4116621b-c5b3-4c67-b945-04307cb21f5c",
-          "width": 0,
-          "x": 3179,
-          "y": 653,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "92c12155-2bf1-4799-b0f6-295be697494a",
-          "width": 0,
-          "x": 3293,
-          "y": 698,
-          "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "3096360c-b001-43fe-aae7-2bc489e1262a",
-          "width": 0,
-          "x": 3346,
-          "y": 697,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "e6531616-0881-44cc-b7a4-7d1ec5df7794",
-          "width": 0,
-          "x": 3321,
-          "y": 751,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin",
-          "persistentUuid": "5b1b5c0a-7a3c-4c12-849f-6a8e9684af4e",
-          "width": 0,
-          "x": 3320,
-          "y": 649,
-          "zOrder": 69,
+          "name": "tong",
+          "persistentUuid": "5af93ddf-f25c-4f4d-a267-77de1342d107",
+          "width": 62,
+          "x": 2226,
+          "y": 480,
+          "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1661,8 +1333,15 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "FireBullet",
+              "type": "FireBullet::FireBullet",
+              "FireCooldown": 0.3,
+              "HasJustFired": false
+            },
+            {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "maxSpeed": 300,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -1672,7 +1351,6 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
@@ -1689,8 +1367,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "p1_stand2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Player/p1_stand2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1703,7 +1381,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.79627227783203,
+                            "y": 6.110955715179443
+                          },
+                          {
+                            "x": 48.817806243896484,
+                            "y": 6.72046422958374
+                          },
+                          {
+                            "x": 52.898780822753906,
+                            "y": 82.00348663330078
+                          },
+                          {
+                            "x": 19.22874641418457,
+                            "y": 82.00348663330078
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1715,11 +1412,12 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"lompat\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":88,\\\"width\\\":80,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABYCAYAAABiQnDAAAAMQElEQVR4Xu1de3CU1RX/7eadkJCQB0TyoNNEBXlYMDzTYqQ6BEcBR0hQhlJACpahmQExYKl/WEihFHQ60HHUQZ1JG7CRh4zWwiDCTEQEIYlCCDgKJATyfj9393Z+d/OlG8xmX3eTzbh3JrNf9rv33Ht+3/nuPfecc8/q4IFl5MiRws/PD0ajUY6uo6MDtbW1Og8cKgZ9UKNHjxYaMJmZmZg1axZGjRoFHx+fHryqq6tx69YtfP311zhz5gy+//57jBgxQt6/ffv2oPIwaJ2HhYWJNWvWYN26dRKI+Ph4uwWMknn58mVZ/9ChQ8jJyUF7e/ug8DIonZJxL4B2y0vvilFRUWLv3r14+umnERgY6CSV3s0okdu3b8dbb73FV31AhWJAOwsICBCcv2JjY5UAdy+Ru3fv4oknnkBRUdGA8TVgHU2bNk0UFBRAr9e7BTxLort378aGDRsGhDe3d5KZmSlX2a1bt2LcuHFuB48d/PDDD1ixYoXs67PPPnMrj24lnpiYKMjMYJTOzk7ZbUxMDBoaGtzGp9sIDx8+XJSVlWHYsGGDgV9Pn1VVVbj//vtRX1/vFl7dQpSj9wLootzk5eWJjIwMF6moac7dTUFBgVuExS1Ek5KSxLVr19Rwr4BKcXEx5s6d65Ztn3IAExISRH5+Ph555BEFrKsjcd9996GiokI5v8oJpqWliZMnT6rjXBGlpUuXIjc3Vzm/ygkePXpUPPXUU4rYVkfm9OnTWLJkifLXWCmAMTEx4ptvvkF0dLQ6zhVRqqysxKRJk3Dnzh2lPCsl5gXQxadNSzJXPE+UQIPBQN0Ura2tSoVGKTFLAIUQWJKxCIbOdvlYTCYTTEYDjCYTjAYjTIL/m2DoNtsLk/naXM8EtjcYDbJtV1cXjEaTua38NMLU3c4khDT9m/9Msj3paO4Ak8l832A0ITjQH00tbUp5VkrsXgnU63QoPfSaBIFWGL1eJ30IvNbpAN7X8UJ+Z77W7mvfyU+drtd9Wa+7HT+0dtr32nfaC0Wal0rLMOX5P0NArRvD7QCazr/p4sSgrvmMlbtwtvCaUp6VEutLAj0JwOy9R/DX9/7D11wZ38oIUU48HcCDx89j1bZcNDWrW0i8ALo4Q/ykALxw5Qbmb3gT5ZU1yvhWRmgovMIV1Q34xfPbcLdGnYX6JwVge2cXon+9Ac2tHcr4VkZoKEgglXP/6S9SqVbGtzJCQwFAjnH47D+gsUVdGIgXQO8q7BgCcfOyUV5Zp0xwlBEaKq9w0oKt+K6sUhnfyggNFQAnZr6G4utlyvhWRmioADh56TZcLLmpjG9lhIYKgFSkL10dIgDSPlf4r61ylo8bGYGI0OAeO55jU7/rtXcfOIXvmjuxP+8E2uqGyE7EC6CDD/5ecxYBjPnN85KKobAIDd9ewYjYGMTFj0RCbCQSosIQH2aOUo0I8MHf3v8vyqvqpcW6s9OAnHUL5b2U8WOkSb6ry4im1na0dXShutUcfVXW1I7yhlacvHANdyvrYGpoAIRASPLP5f3gCQ+hY9xDaBo7HoKB6XS5KvSLuHUO1DGY0mTq/Rja2oDaWqCmBqiuNl/TbF9XB9/Gevg0N8s/P0MXhMHsExF+foCPD4yBQegKD0dnSCjE8OFmuuHhQETE/z+jomRdqyUkZIgD6KBUK6/u708vlTLBUUaor1W4TwlUjoiDBCmdnmrS56GZixcv9viFPQ7ApibofzYGphp1p56USuDKlSvF22+/3SMSHgdgeTn8Jk9GV6XjWzmGK7e2tkremjlH+/mhsbGx27nq4FtgrboXQCeBjI6OlpH4PH4VxVWwu3iaBOpPnIB+wXwYWuz3yul0OrF582ZMnz4dM2fOlJyFhYXh9ddfx6ZNm9RIICWPhC1f37a2NgRTZbhXjXHyIbncrK4Ousceg7h0qd9pSzv8SEHIzs4GD0D2VT755BPMmzfPdQApfdrBP0vpa29vR1rGYpxNTzf3v2atyxg4TcBoRFDmYoy4WoLy4ss/AnDSpEmiqKgIr776Kl544QXZDSNa+yu3b9/G6NGjXQcwKytL7Nmzx2pfO7sXlT9d/hYdu63XcxocGw1DPvw3OpYtx56/bMf69VkMWuoBMDk5WcyePRuLFy/G448/7tAQCgsL8fDDD7sGYEpKijh37pxdHfNY6jPPPAP/fXvRufZFu9o4VenWLYS8tx8+774rmyeGheIff9+H5ORkeaSW89izzz4r7y1cuNCmpFkbw0svvYRdu3Y5DyAPDnKe06Kk7GX2zzk52PrKK9Cv+z1MGzYCiYn2NrVer64O+PRTRB47DHGpEL619dixPUfWX758ufzklNLQ0MDwE5f7q6mpwcSJE2W4sNN6oBdAFwD08/OTSqWvr6/TT/PYsWNYtzkbN741nzz3+91qGGalQkyfzmNOQGQkgwZ7029uBu7cAUpLEXjmtLyn/zAfoq0NXe0dWPirXyJ7yx8xefJkp8fVX8PS0lJ5OyUlRSrRvHZYAmfOnCk2bdqE+fPnKx3k4cOH8f4/c1FQVIjq+kYYqXZoo9PpITo74RsRDn1gIPQGAybGx8n+56bPw29XrERiYqLD04kjDDDy9eWXX5ZNOPdpbe0GcMqUKVLXW7VqFZjrwN2FmTrqOLeB1ieztDPGOSgoCP60qAxguXr1KlfcPvMy2AVgUFCQ+Pjjj+WQH3300QEc+uB29dFHH2H16tXSwGstO4hNAH18fASDvO1ZbT/44ANkZWXhq6++clo9cCdkTAnAFCoh3CFx/tLp5OrMv5s3b+Ls2bPgVMJy5coVxMXF2czB0C+AERERgkt2f+Dx9eLrxkI97/PPP5fqQmhoqDuxcIr2+fPnQcVZGxv5onRxfnP2AI4XQHcBGB8fL0pKShAcHNzv025pabE8la6bMGGC3Fd6YmH6gdTUVJSXl9ucuuwdf5+E4uLiJAgRdNbYKDNmzODc0UPnjTfeEOvXr7fVbFDuc1V/4IEHUFVV5R4AY2NjparCA4Nabqr+OOWeMj8/v2cwbP/OO+8gXbPADApM1jvlcS/a8tra1J1W6mHe39+/x2RtmfjL2nD4OlD6LCdfAvjll186lAdrIDGWEar+/jAYDGolMDw8XDAr2vjx4+3mZ9q0aTh37lyvgQQGBgr6C+x5AHZ3pLgiFXKj0egF0Flc3QIg9b3a7ggBWwO7fv069u/fz2RfP3qKtNBQKfXkwle4S7VjnTEtd2jlsKPQT7Bjx44+X4EHH3xQUIP35EJ3pPI5kAynp6eLffv2Sd7HjBnTC4Py8nK5/LO0tLRYnT88NeGEJTPceVia9V192L3AsEzHOXbsWKkgnzhxQirTlXY4o/kQNKODqwNzR3tuO+ksUplLS9lqRIbnzJkjCLinFiaeoKbhNkXaVcZHjRolKioqXCXjtvanTp2SHjgvgE5CPCQApJPdnj20kxi41ExzRbpE5J7GSufAYcOGiSNHjiApKQkJCQkqx6mEVmRkpPKE3koB1Lh87rnnRG5urhKmVRChEWHjxo0ydqc/NcyZvpQDGBoaKuiEsSdTL01mmoOIyXqoNgUEBPyID+Z9oVuBaT2bmpoYk2I3r1TBaHlWnXBHG4ByAB3ZFi5atAjHjx+XYyFw1NNooKXPgjsGXrMQAAJN8JgZLi0tzW4AaYFZtmwZLly4QD+Hcn6VEzx48KAgMLYKdzfMMeioL4LKPvMT0hrkSKGji3bKmhp1+RLkw3VkEPbU9QJoD0pW6tAaw9fOHnsgIxuOHj3q1AOcOnWq2LJlixyFIxESNAIzBX1xcbFT/fbFtjJCJJ6RkSHy8vJsPgI6q8h4aWmp0/2npqZK9wOtQ08++aTNPi0raNnUVRgVnGbAckAMVOT/O3fuxIIFC2wy05c122YjKxUYw8xV2h7HP0k0NjbKaAOWAwcOuMy/ywQ4EKou/ORm3dYvNHzxxRcyFeeNGzeU9M1++dMajDqw1Tfrrl27FtzSsZSUlLg8BpcJcCC+vr4SQOpq/RVKCs1J9pjGHJVIvV4vJdFa4S/iTJ061eFV39Y4lAAYGRkpAaQpi4HmjFylRDAVvGad4eKybds2t/7yDJ1a9P1aSiJ1S0ocJe/mTXUHrTVgvQDaEjEb95UAqPXBJLRc4TQ1RmUIhb18ckHjnpe/4sAyZ84cl4KHbPWrFEBbnQ3UfTr4tZ/DUL3zuJeH/wE02QKzBeGyqAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABYCAYAAABiQnDAAAABT0lEQVR4Xu3aQQrCMABFwfb+h1ZcFEFMDUygRZ5rX2ymf+m+9SGBneriLUAcQYABogDmLTBAFMC8BQaIApi3wABRAPMWGCAKYN4CA0QBzFtggCiAeQsMEAUwb4EBogDmLTBAFMC8BQaIApi3wABRAPMW+CeAj8E9Zl6wtMi33eKvHSOA43JniNIy3uuAmTe85IcGh/wCOEOUdtmdAkTKuwEez/O5rm/POfrOTIts7/xqwGUXueqgAFE+wABRAPMWGCAKYN4CA0QBzFtggCiAeQsMEAUwb4EBogDmLTBAFMC8BQaIApi3wABRAPMWGCAKYN4CA0QBzFtggCiAeQsMEAUwb4EBogDmLTBAFMC8BQaIApi3wABRAPMWGCAKYN4CA0QBzFtggCiAeQsMEAUwb4EBogDmLTBAFMC8BQaIApi3wABRAPMWGCAKYN4CEfAJ0tUMWdO2cnsAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"/home/wyvren/Projects/GDevelop projects/Corona Fighter/Asset/Player/lompat-1-2.png\"],\"name\":\"lompat\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "p1_jump2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Player/lompat-1-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1732,7 +1430,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.79627227783203,
+                            "y": 6.110955715179443
+                          },
+                          {
+                            "x": 48.817806243896484,
+                            "y": 6.72046422958374
+                          },
+                          {
+                            "x": 52.898780822753906,
+                            "y": 82.00348663330078
+                          },
+                          {
+                            "x": 19.22874641418457,
+                            "y": 82.00348663330078
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1747,8 +1464,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "p1_walk032.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Player/p1_walk032.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1761,11 +1478,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.79627227783203,
+                            "y": 6.110955715179443
+                          },
+                          {
+                            "x": 48.817806243896484,
+                            "y": 6.72046422958374
+                          },
+                          {
+                            "x": 52.898780822753906,
+                            "y": 82.00348663330078
+                          },
+                          {
+                            "x": 19.22874641418457,
+                            "y": 82.00348663330078
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "p1_walk042.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Player/p1_walk042.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1778,11 +1514,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.79627227783203,
+                            "y": 6.110955715179443
+                          },
+                          {
+                            "x": 48.817806243896484,
+                            "y": 6.72046422958374
+                          },
+                          {
+                            "x": 52.898780822753906,
+                            "y": 82.00348663330078
+                          },
+                          {
+                            "x": 19.22874641418457,
+                            "y": 82.00348663330078
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "p1_walk052.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Player/p1_walk052.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1795,11 +1550,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.79627227783203,
+                            "y": 6.110955715179443
+                          },
+                          {
+                            "x": 48.817806243896484,
+                            "y": 6.72046422958374
+                          },
+                          {
+                            "x": 52.898780822753906,
+                            "y": 82.00348663330078
+                          },
+                          {
+                            "x": 19.22874641418457,
+                            "y": 82.00348663330078
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "p1_walk062.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Player/p1_walk062.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1812,11 +1586,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.79627227783203,
+                            "y": 6.110955715179443
+                          },
+                          {
+                            "x": 48.817806243896484,
+                            "y": 6.72046422958374
+                          },
+                          {
+                            "x": 52.898780822753906,
+                            "y": 82.00348663330078
+                          },
+                          {
+                            "x": 19.22874641418457,
+                            "y": 82.00348663330078
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "p1_walk072.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Player/p1_walk072.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1829,7 +1622,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.79627227783203,
+                            "y": 6.110955715179443
+                          },
+                          {
+                            "x": 48.817806243896484,
+                            "y": 6.72046422958374
+                          },
+                          {
+                            "x": 52.898780822753906,
+                            "y": 82.00348663330078
+                          },
+                          {
+                            "x": 19.22874641418457,
+                            "y": 82.00348663330078
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1850,12 +1662,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "cloud1.png",
+                      "image": "Asset/Objek/cloud1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1880,7 +1692,7 @@
           "height": 50,
           "name": "daratan",
           "tags": "",
-          "texture": "jalan.png",
+          "texture": "Asset/Tiles/jalan.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 50,
           "variables": [],
@@ -1898,7 +1710,7 @@
           "height": 32,
           "name": "tanahterbang",
           "tags": "",
-          "texture": "bridgeLogs.png",
+          "texture": "Asset/Objek/bridgeLogs.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -1930,7 +1742,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "vaksin.png",
+                      "image": "Asset/Objek/vaksin.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1952,7 +1764,7 @@
           ]
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "score",
           "smoothed": true,
@@ -1963,11 +1775,11 @@
           "behaviors": [],
           "string": "Score : 0",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 25,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 10,
+            "g": 91,
+            "r": 219
           }
         },
         {
@@ -1990,11 +1802,11 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 1,
+                  "timeBetweenFrames": 0.33329999446868896,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "corona walk 1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Enemy/corona walk 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2007,11 +1819,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12.860487937927246,
+                            "y": 0.7418397665023804
+                          },
+                          {
+                            "x": 88.57940673828125,
+                            "y": 1.610305905342102
+                          },
+                          {
+                            "x": 88.17683410644531,
+                            "y": 65.21739196777344
+                          },
+                          {
+                            "x": 13.973247528076172,
+                            "y": 64.5400619506836
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Corona walk 2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Enemy/Corona walk 2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2024,7 +1855,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16.11564064025879,
+                            "y": 2.0128824710845947
+                          },
+                          {
+                            "x": 88.57940673828125,
+                            "y": 1.610305905342102
+                          },
+                          {
+                            "x": 88.17683410644531,
+                            "y": 65.21739196777344
+                          },
+                          {
+                            "x": 27.79035758972168,
+                            "y": 66.82769775390625
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2035,12 +1885,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Corona dead.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Enemy/Corona dead.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2053,7 +1903,126 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16.11564064025879,
+                            "y": 2.0128824710845947
+                          },
+                          {
+                            "x": 88.57940673828125,
+                            "y": 1.610305905342102
+                          },
+                          {
+                            "x": 88.17683410644531,
+                            "y": 65.21739196777344
+                          },
+                          {
+                            "x": 27.79035758972168,
+                            "y": 66.82769775390625
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enemy2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "left"
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16670000553131104,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Enemy/corona fly 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.461766242980957,
+                            "y": 9.311511993408203
+                          },
+                          {
+                            "x": 67.31598663330078,
+                            "y": 8.703481674194336
+                          },
+                          {
+                            "x": 51.01932907104492,
+                            "y": 30.19187355041504
+                          },
+                          {
+                            "x": 25.62429428100586,
+                            "y": 36.3995475769043
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset/Enemy/corona fly 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.461766242980957,
+                            "y": 9.311511993408203
+                          },
+                          {
+                            "x": 67.31598663330078,
+                            "y": 8.703481674194336
+                          },
+                          {
+                            "x": 51.01932907104492,
+                            "y": 30.19187355041504
+                          },
+                          {
+                            "x": 25.62429428100586,
+                            "y": 36.3995475769043
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2079,7 +2048,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Left.png",
+                      "image": "Asset/Objek/Left.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2118,7 +2087,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Right.png",
+                      "image": "Asset/Objek/Right.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2149,8 +2118,8 @@
             {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
               "canBeGrabbed": true,
-              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ],
@@ -2165,7 +2134,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tong 2.png",
+                      "image": "Asset/Objek/Tong oren.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2190,7 +2159,7 @@
           "height": 32,
           "name": "tong2",
           "tags": "",
-          "texture": "tong2.png",
+          "texture": "Asset/Objek/Tong biru.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -2203,9 +2172,394 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "name": "Gun",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset/Objek/Pistol0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "shoot",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset/Objek/pistol1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "parabola",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset/Objek/parabola.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ammo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "ammo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ammo-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Shooting",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"PlayerShootTime\"\n"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "z"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.50",
+                    "\"PlayerShootTime\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FireBullet::FireBullet::Fire"
+                  },
+                  "parameters": [
+                    "player",
+                    "FireBullet",
+                    "player.X()+50",
+                    "player.Y()+40",
+                    "ammo",
+                    "360",
+                    "600",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"PlayerShootTime\"\n"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "z"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.50",
+                    "\"PlayerShootTime\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FireBullet::FireBullet::Fire"
+                  },
+                  "parameters": [
+                    "player",
+                    "FireBullet",
+                    "player.X()-50",
+                    "player.Y()+40",
+                    "ammo",
+                    "360",
+                    "-600",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "ammo",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"PlayerShootTime\"\n"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "ammo",
+                    "Objek",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ammo",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2550,7 +2904,7 @@
                   },
                   "parameters": [
                     "corona",
-                    "-100",
+                    "100",
                     "0",
                     "0"
                   ],
@@ -2726,10 +3080,320 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Delete"
+                    "value": "MettreXY"
                   },
                   "parameters": [
                     "player",
+                    "=",
+                    "Variable(CheckpointX)",
+                    "=",
+                    "Variable(CheckpointY)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "corona",
+                    "ammo",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "corona",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "player",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "player",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Enemy2",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Movement",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Direction",
+                    "=",
+                    "\"right\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "200",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "kiri",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Direction",
+                    "=",
+                    "\"left\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Direction",
+                    "=",
+                    "\"left\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "-200",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "kanan",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Direction",
+                    "=",
+                    "\"right\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemy2",
                     ""
                   ],
                   "subInstructions": []
@@ -2749,21 +3413,48 @@
                   },
                   "parameters": [
                     "player",
-                    "corona",
+                    "Enemy2",
                     "",
                     "",
                     ""
                   ],
                   "subInstructions": []
-                },
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::IsFalling"
+                    "value": "MettreXY"
                   },
                   "parameters": [
                     "player",
-                    "PlatformerObject"
+                    "=",
+                    "Variable(CheckpointX)",
+                    "=",
+                    "Variable(CheckpointY)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "Enemy2",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -2775,7 +3466,7 @@
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "corona",
+                    "Enemy2",
                     "=",
                     "1"
                   ],
@@ -2784,11 +3475,14 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Delete"
+                    "value": "MettreXY"
                   },
                   "parameters": [
-                    "corona",
-                    ""
+                    "player",
+                    "=",
+                    "Variable(CheckpointX)",
+                    "=",
+                    "Variable(CheckpointY)"
                   ],
                   "subInstructions": []
                 },
@@ -2811,6 +3505,103 @@
                   "parameters": [
                     "player",
                     "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "ammo",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "CheckPoint",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "parabola",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "CheckpointX",
+                    "=",
+                    "Checkpoint.X()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "CheckpointY",
+                    "=",
+                    "Checkpoint.Y()"
                   ],
                   "subInstructions": []
                 }
@@ -2868,6 +3659,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -2879,7 +3674,638 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "@4ian",
+      "description": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
+      "extensionNamespace": "",
+      "fullName": "Fire bullets",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWJ1bGxldCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNCwyMkgxMFYyMUgxNFYyMk0xMywxMFY3SDExVjEwTDEwLDExLjVWMjBIMTRWMTEuNUwxMywxME0xMiwyQzEyLDIgMTEsMyAxMSw1VjZIMTNWNUMxMyw1IDEzLDMgMTIsMloiIC8+PC9zdmc+",
+      "name": "FireBullet",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/bullet.svg",
+      "shortDescription": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
+      "version": "0.0.4",
+      "tags": [
+        "fire",
+        "bullet",
+        "spawn",
+        "firerate"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
+          "fullName": "Fire Bullet",
+          "name": "FireBullet",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Fire a bullet toward a position",
+              "fullName": "Fire a bullet toward a position",
+              "functionType": "Action",
+              "name": "FireTowardPosition",
+              "private": false,
+              "sentence": "Fire _PARAM4_ from _PARAM0_, at position _PARAM2_;_PARAM3_, toward position _PARAM5_;_PARAM6_ with speed _PARAM7_ px/s",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"FireCooldown\"",
+                        "Object.Behavior::PropertyFireCooldown()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bullet",
+                        "GetArgumentAsNumber(\"XPosition\")",
+                        "GetArgumentAsNumber(\"YPosition\")",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "GetArgumentAsNumber(\"TargetXPosition\")",
+                        "GetArgumentAsNumber(\"TargetYPosition\")",
+                        "GetArgumentAsNumber(\"Speed\")",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::SetPropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "GetArgumentAsNumber(\"TargetXPosition\")",
+                        "GetArgumentAsNumber(\"TargetYPosition\")",
+                        "0",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "X position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "XPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Y position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "YPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "The bullet object",
+                  "longDescription": "",
+                  "name": "Bullet",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "objectList"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Target X position",
+                  "longDescription": "",
+                  "name": "TargetXPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Target Y position",
+                  "longDescription": "",
+                  "name": "TargetYPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Speed of the bullet, in pixels per second",
+                  "longDescription": "",
+                  "name": "Speed",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Fire a bullet",
+              "fullName": "Fire a bullet",
+              "functionType": "Action",
+              "name": "Fire",
+              "private": false,
+              "sentence": "Fire _PARAM4_ from _PARAM0_, at position _PARAM2_;_PARAM3_, with angle _PARAM5_ and speed _PARAM6_ px/s",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"FireCooldown\"",
+                        "Object.Behavior::PropertyFireCooldown()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bullet",
+                        "GetArgumentAsNumber(\"XPosition\")",
+                        "GetArgumentAsNumber(\"YPosition\")",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "GetArgumentAsNumber(\"Angle\")",
+                        "GetArgumentAsNumber(\"Speed\")",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::SetPropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "=",
+                        "GetArgumentAsNumber(\"Angle\")"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "X position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "XPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Y position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "YPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "The bullet object",
+                  "longDescription": "",
+                  "name": "Bullet",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "objectList"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Angle of the bullet, in degrees",
+                  "longDescription": "",
+                  "name": "Angle",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Speed of the bullet, in pixels per second",
+                  "longDescription": "",
+                  "name": "Speed",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object has just fired something.",
+              "fullName": "Has just fired",
+              "functionType": "Condition",
+              "name": "HasJustFired",
+              "private": false,
+              "sentence": "_PARAM0_ has just fired",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::PropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::SetPropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "="
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"FireCooldown\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::PropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"FireCooldown\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.1",
+              "type": "Number",
+              "label": "Cooldown, in seconds, before firing again",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "FireCooldown"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "HasJustFired"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
