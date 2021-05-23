@@ -1,12 +1,12 @@
 > GAME:
 1. Parallax BAckground
-2. Checkpoint
+2. Checkpoint (Progres)
 3. Level (From Door)
 4. Vaksin (Point & Ammo)
 
 > PLAYER:
 1. Health
-2. Shooting
+2. Shooting (Progres)
 
 > ENEMY:
 1. Health
