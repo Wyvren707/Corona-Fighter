@@ -1,5 +1,5 @@
 > GAME:
-1. Parallax BAckground
+1. Parallax Background
 2. Checkpoint (Tidak Usah)
 3. Level (From Door)
 4. Vaksin (Point & Ammo)
@@ -7,11 +7,11 @@
 
 > PLAYER:
 1. Health (Tidak Usah)
-2. Shooting (Progres)
+2. Shooting (Progres : - desain : Senjata & ammo)
 
 > ENEMY:
 1. Health
-2. Death ( Score )
+2. Death ( Score ) = done!
 
 > BOSS:
 1. Health
