@@ -679,15 +679,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Asset/Objek/love.png",
         "kind": "image",
         "metadata": "",
@@ -775,6 +766,60 @@
         "name": "NewObject-1-3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Health/NewObject-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Health/NewObject-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Health/NewObject-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Health/NewObject-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/Health/NewObject-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/Health/NewObject-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/door.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -808,7 +853,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.5824000000000022
+        "zoomFactor": 0.3810000000000023
       },
       "objectsGroups": [
         {
@@ -1047,7 +1092,7 @@
           "locked": false,
           "name": "daratan",
           "persistentUuid": "88ecc281-8956-4bca-9613-ec5cea90b70d",
-          "width": 1178,
+          "width": 1764,
           "x": 2422,
           "y": 576,
           "zOrder": 46,
@@ -1074,14 +1119,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 167,
+          "height": 180,
           "layer": "",
           "locked": false,
           "name": "corona",
           "persistentUuid": "8e743fc1-a184-4bfd-945c-8bb1299e9e02",
-          "width": 238,
+          "width": 251,
           "x": 2607,
-          "y": 392,
+          "y": 376,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -1672,9 +1717,201 @@
           "name": "Potion",
           "persistentUuid": "778061a3-a52f-422d-a733-a53a1a9cc861",
           "width": 0,
-          "x": 2530,
-          "y": 466,
+          "x": 2935,
+          "y": 462,
           "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1563,
+          "layer": "",
+          "locked": false,
+          "name": "daratan",
+          "persistentUuid": "62e5a3b4-b448-497b-93fd-dcf29b9a73da",
+          "width": 291,
+          "x": 4184,
+          "y": 9,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1757,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "35c79844-b530-48a9-a835-c582fb4f3548",
+          "width": 2550,
+          "x": 3412,
+          "y": -621,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 144,
+          "layer": "",
+          "locked": false,
+          "name": "Door",
+          "persistentUuid": "5da95cc5-137e-4f9b-8faa-906dcbcc4a06",
+          "width": 129,
+          "x": 4078,
+          "y": 433,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "locked": false,
+          "name": "AC",
+          "persistentUuid": "71a458a7-a9d2-48a9-a2a9-be12cecbda35",
+          "width": 111,
+          "x": 3665,
+          "y": 502,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "162bcd64-b39d-4b43-bb04-82026b51b39b",
+          "width": 90,
+          "x": 2040,
+          "y": 243,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "3227f9ec-d308-4ceb-8266-ba746ad1477b",
+          "width": 90,
+          "x": 1899.139892578125,
+          "y": 239.5034942626953,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "c5262414-26f0-4d90-b50e-d7d48189490c",
+          "width": 90,
+          "x": 2217.652587890625,
+          "y": 236.00698852539062,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "b8f660ac-4b3b-4fe2-8fa5-b11e5ec61064",
+          "width": 90,
+          "x": 2319.202880859375,
+          "y": 254.65501403808594,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy2",
+          "persistentUuid": "6cfa71aa-aa98-438a-b0cd-56db4bd45a6b",
+          "width": 90,
+          "x": 2147.22607421875,
+          "y": 282.6270446777344,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "kanan",
+          "persistentUuid": "aa8b7a7e-13cf-4962-878d-de3c2d465625",
+          "width": 0,
+          "x": 1549,
+          "y": 247,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "kiri",
+          "persistentUuid": "2bc14f6e-7fea-411f-b5b1-66606dfef869",
+          "width": 0,
+          "x": 2369,
+          "y": 248,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "corona",
+          "persistentUuid": "f7d222c0-8d19-4552-9a55-a9a86a642148",
+          "width": 0,
+          "x": 1804,
+          "y": 487,
+          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2630,7 +2867,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "Asset/Objek/NewObject-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2755,7 +2992,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-2.png",
+                      "image": "Asset/Objek/Health/NewObject-1-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2794,7 +3031,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-1.png",
+                      "image": "Asset/Objek/Health/NewObject-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2833,7 +3070,46 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-3.png",
+                      "image": "Asset/Objek/Health/NewObject-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Door",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset/Objek/door.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3249,7 +3525,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3482,7 +3758,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3924,7 +4200,7 @@
                   },
                   "parameters": [
                     "Enemy2",
-                    "-200",
+                    "-300",
                     "0",
                     ""
                   ],
@@ -4164,8 +4440,229 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Health",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "Enemy",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Flash::Flash::IsFlashing"
+                  },
+                  "parameters": [
+                    "player",
+                    "Flash",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "player",
+                    "Flash",
+                    "1.5",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Health",
+                    "=",
+                    "200/player.Variable(HealthMax)*player.Variable(Health)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    "=",
+                    "240"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "Potion",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    ">=",
+                    "player.Variable(HealthMax)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Potion",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "player",
+                    "Health",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"World\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Level",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -4183,181 +4680,10 @@
               },
               "parameters": [
                 "player",
-                "Enemy",
+                "Door",
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Flash::Flash::IsFlashing"
-              },
-              "parameters": [
-                "player",
-                "Flash",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "player",
-                "Health",
-                "-",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Flash::Flash::Flash"
-              },
-              "parameters": [
-                "player",
-                "Flash",
-                "1.5",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "Health",
-                "=",
-                "200/player.Variable(HealthMax)*player.Variable(Health)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "HealthBar",
-                "=",
-                "240"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "player",
-                "Potion",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "player",
-                "Health",
-                ">=",
-                "player.Variable(HealthMax)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "player",
-                "Health",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Potion",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "player",
-                "Health",
-                "<=",
-                "0"
               ],
               "subInstructions": []
             }
@@ -4370,7 +4696,7 @@
               },
               "parameters": [
                 "",
-                "\"World\"",
+                "\"World 2\"",
                 ""
               ],
               "subInstructions": []
@@ -4442,6 +4768,101 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "World_322",
+      "name": "World 2",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "persistentUuid": "b2364fa4-8cde-4f91-832f-24b5097787d6",
+          "width": 0,
+          "x": 254,
+          "y": 260,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": true,
+          "name": "NewObject",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "LEVEL 2 ",
+          "font": "",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
