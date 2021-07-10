@@ -1009,6 +1009,42 @@
         "name": "Asset/Background/BG-MALAM.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/Boss/NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/Boss/NewObject-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/Boss/NewObject-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/Boss/NewObject-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/Boss/NewObject-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/Boss/NewObject-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Enemy/Boss/NewObject-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Enemy/Boss/NewObject-4.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3528,7 +3564,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "Asset/Enemy/Boss/NewObject-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3545,7 +3581,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-2.png",
+                      "image": "Asset/Enemy/Boss/NewObject-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3562,7 +3598,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-3.png",
+                      "image": "Asset/Enemy/Boss/NewObject-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3579,7 +3615,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-4.png",
+                      "image": "Asset/Enemy/Boss/NewObject-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5498,7 +5534,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.4870000000000041
+        "zoomFactor": 0.4340000000000041
       },
       "objectsGroups": [
         {
@@ -7984,7 +8020,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "Asset/Enemy/Boss/NewObject-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8001,7 +8037,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-2.png",
+                      "image": "Asset/Enemy/Boss/NewObject-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8018,7 +8054,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-3.png",
+                      "image": "Asset/Enemy/Boss/NewObject-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8035,7 +8071,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-4.png",
+                      "image": "Asset/Enemy/Boss/NewObject-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12440,7 +12476,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "Asset/Enemy/Boss/NewObject-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12457,7 +12493,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-2.png",
+                      "image": "Asset/Enemy/Boss/NewObject-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12474,7 +12510,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-3.png",
+                      "image": "Asset/Enemy/Boss/NewObject-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12491,7 +12527,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-4.png",
+                      "image": "Asset/Enemy/Boss/NewObject-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
