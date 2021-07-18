@@ -607,15 +607,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ammo-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ammo-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Asset/Player/lompat-1.png",
         "kind": "image",
         "metadata": "",
@@ -940,15 +931,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject-2.png",
         "kind": "image",
         "metadata": "",
@@ -1045,6 +1027,33 @@
         "name": "Asset/Enemy/Boss/NewObject-4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/g106.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/g106.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ammo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ammo-1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1078,7 +1087,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.4234000000000041
+        "zoomFactor": 0.7626000000000057
       },
       "objectsGroups": [
         {
@@ -2139,6 +2148,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 116,
+          "layer": "",
+          "locked": false,
+          "name": "PlayeHitBox",
+          "persistentUuid": "83eb32a2-18cc-485e-ab18-dfe383af286c",
+          "width": 97,
+          "x": 7,
+          "y": 442,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "",
+          "locked": false,
+          "name": "Senjata",
+          "persistentUuid": "70228868-9e31-4320-a688-01b4ac4a981e",
+          "width": 88.29778289794922,
+          "x": 82,
+          "y": 477,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2148,6 +2189,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "FireBullet",
@@ -2515,6 +2557,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -2556,6 +2599,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 50,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -2574,6 +2618,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -2590,6 +2635,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -2632,6 +2678,7 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "Score  : 0",
           "font": "",
@@ -2654,6 +2701,7 @@
               "value": "left"
             }
           ],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -2807,6 +2855,7 @@
               "value": "left"
             }
           ],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -2906,6 +2955,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -2945,6 +2995,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -2984,6 +3035,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3052,6 +3104,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3091,6 +3144,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "DestroyOutside",
@@ -3139,6 +3193,7 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "Vaksin : 0",
           "font": "",
@@ -3155,6 +3210,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3194,6 +3250,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3233,6 +3290,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -3280,6 +3338,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3319,6 +3378,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3358,6 +3418,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3414,6 +3475,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -3453,6 +3515,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -3500,6 +3563,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -3547,6 +3611,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -3616,6 +3681,105 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Asset/Enemy/Boss/NewObject-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PlayeHitBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Senjata",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset/Objek/g106.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3720,6 +3884,53 @@
               },
               "parameters": [
                 "Limit"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "PlayeHitBox"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "PlayeHitBox.X()",
+                "=",
+                "PlayeHitBox.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Senjata",
+                "=",
+                "PlayeHitBox.X()+72",
+                "=",
+                "PlayeHitBox.Y()+40"
               ],
               "subInstructions": []
             }
@@ -4031,7 +4242,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4254,6 +4465,96 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "=",
+                    "PlayeHitBox.X()+72",
+                    "=",
+                    "PlayeHitBox.Y()+40"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "=",
+                    "PlayeHitBox.X()-58",
+                    "=",
+                    "PlayeHitBox.Y()+40"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -4264,7 +4565,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5187,7 +5488,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Level",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5237,7 +5538,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Boss",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5534,7 +5835,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.4340000000000041
+        "zoomFactor": 1.3138000000000056
       },
       "objectsGroups": [
         {
@@ -6595,6 +6896,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 115,
+          "layer": "",
+          "locked": false,
+          "name": "PlayeHitBox",
+          "persistentUuid": "6371707f-d8e3-4c2e-a8c6-5b7b08675416",
+          "width": 99,
+          "x": 6,
+          "y": 440,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 49.8514404296875,
+          "layer": "",
+          "locked": false,
+          "name": "Senjata",
+          "persistentUuid": "81691968-9f00-4246-98f8-018884f3b1ff",
+          "width": 83.05229949951172,
+          "x": 83,
+          "y": 480,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6604,6 +6937,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "FireBullet",
@@ -6971,6 +7305,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7012,6 +7347,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 50,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -7030,6 +7366,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -7046,6 +7383,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7088,6 +7426,7 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "Score  : 0",
           "font": "",
@@ -7110,6 +7449,7 @@
               "value": "left"
             }
           ],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -7263,6 +7603,7 @@
               "value": "left"
             }
           ],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -7362,6 +7703,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7401,6 +7743,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7440,6 +7783,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7508,6 +7852,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7547,6 +7892,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "DestroyOutside",
@@ -7595,6 +7941,7 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "Vaksin : 0",
           "font": "",
@@ -7611,6 +7958,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7650,6 +7998,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7689,6 +8038,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -7736,6 +8086,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7775,6 +8126,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7814,6 +8166,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7870,6 +8223,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -7909,6 +8263,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -7956,6 +8311,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -8003,6 +8359,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -8072,6 +8429,105 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Asset/Enemy/Boss/NewObject-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PlayeHitBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Senjata",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset/Objek/g106.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8176,6 +8632,53 @@
               },
               "parameters": [
                 "Limit"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "PlayeHitBox"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Senjata",
+                "=",
+                "PlayeHitBox.X()+72",
+                "=",
+                "PlayeHitBox.Y()+40"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "PlayeHitBox.X()",
+                "=",
+                "PlayeHitBox.Y()"
               ],
               "subInstructions": []
             }
@@ -8487,7 +8990,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8710,6 +9213,96 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "=",
+                    "PlayeHitBox.X()+72",
+                    "=",
+                    "PlayeHitBox.Y()+40"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "=",
+                    "PlayeHitBox.X()-58",
+                    "=",
+                    "PlayeHitBox.Y()+40"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -8720,7 +9313,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9643,7 +10236,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Level",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9693,7 +10286,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Boss",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9990,7 +10583,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.423400000000004
+        "zoomFactor": 0.8156000000000049
       },
       "objectsGroups": [
         {
@@ -11051,6 +11644,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 47,
+          "layer": "",
+          "locked": false,
+          "name": "Senjata",
+          "persistentUuid": "5f503227-aae9-4875-8126-e06ac7fb8703",
+          "width": 79,
+          "x": 85,
+          "y": 482,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 113,
+          "layer": "",
+          "locked": false,
+          "name": "PlayeHitBox",
+          "persistentUuid": "2a5a94eb-9885-48cb-8db4-9c83f4f45f33",
+          "width": 113,
+          "x": 5,
+          "y": 442,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -11060,6 +11685,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "FireBullet",
@@ -11427,6 +12053,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -11468,6 +12095,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 50,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -11486,6 +12114,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -11502,6 +12131,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -11544,6 +12174,7 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "Score  : 0",
           "font": "",
@@ -11566,6 +12197,7 @@
               "value": "left"
             }
           ],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -11719,6 +12351,7 @@
               "value": "left"
             }
           ],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -11818,6 +12451,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -11857,6 +12491,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -11896,6 +12531,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -11964,6 +12600,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -12003,6 +12640,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "DestroyOutside",
@@ -12051,6 +12689,7 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "Vaksin : 0",
           "font": "",
@@ -12067,6 +12706,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -12106,6 +12746,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -12145,6 +12786,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -12192,6 +12834,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -12231,6 +12874,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -12270,6 +12914,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -12326,6 +12971,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -12365,6 +13011,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -12412,6 +13059,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -12459,6 +13107,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -12528,6 +13177,105 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Asset/Enemy/Boss/NewObject-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Senjata",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset/Objek/g106.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PlayeHitBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12632,6 +13380,53 @@
               },
               "parameters": [
                 "Limit"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "PlayeHitBox"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "PlayeHitBox.X()",
+                "=",
+                "PlayeHitBox.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Senjata",
+                "=",
+                "PlayeHitBox.X()+72",
+                "=",
+                "PlayeHitBox.Y()+40"
               ],
               "subInstructions": []
             }
@@ -12943,7 +13738,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13161,6 +13956,104 @@
                   "parameters": [
                     "ammo",
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "=",
+                    "PlayeHitBox.X()+72",
+                    "=",
+                    "PlayeHitBox.Y()+40"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Senjata",
+                    "=",
+                    "PlayeHitBox.X()-58",
+                    "=",
+                    "PlayeHitBox.Y()+40"
                   ],
                   "subInstructions": []
                 }
