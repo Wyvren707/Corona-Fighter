@@ -1054,6 +1054,24 @@
         "name": "ammo-1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/ammo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/ammo-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset/Objek/NewObject-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset/Objek/NewObject-11.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3163,7 +3181,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "ammo-1.png",
+                      "image": "Asset/Objek/ammo-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3739,7 +3757,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "Asset/Objek/NewObject-11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5835,7 +5853,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.3138000000000056
+        "zoomFactor": 1.0170000000000063
       },
       "objectsGroups": [
         {
@@ -7911,7 +7929,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "ammo-1.png",
+                      "image": "Asset/Objek/ammo-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8487,7 +8505,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "Asset/Objek/NewObject-11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12659,7 +12677,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "ammo-1.png",
+                      "image": "Asset/Objek/ammo-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13275,7 +13293,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "Asset/Objek/NewObject-11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
